@@ -11,6 +11,9 @@ st.set_page_config(page_title='IPO Application Suggestion')
 
 st.title("IPO Application Suggestion")
 
+# Description
+st.write("This tool uses historical IPO data and Logistic Regression Model to predict whether applying for an IPO may result in listing gains of more than 5%.")
+
 # Input form
 with st.form("input_form"):
     issue_price = st.number_input("Issue Price", min_value=0.0, step=0.01)

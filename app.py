@@ -7,7 +7,7 @@ import numpy as np
 loaded_pipeline = joblib.load("logistic_pipeline.joblib")
 
 #title
-st.set_page_config(page_title='IPO Application Suggestion', layout='wide')
+st.set_page_config(page_title='IPO Application Suggestion')
 
 st.title("IPO Application Suggestion")
 
